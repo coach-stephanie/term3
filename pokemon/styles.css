@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+}
+
+#welcome {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#start {
+	display: none;
+	flex-direction: column;
+}
+
+.cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#first {
+	background-color: pink;
+}
+
+#second {
+	background-color: blue;
+}
+
+.poke-img {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+#result {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
